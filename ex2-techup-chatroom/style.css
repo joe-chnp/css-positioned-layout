@@ -1,1 +1,52 @@
 /* Start coding here */
+.header {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.chatbox {
+    border-radius: 30px;
+    width: 200px;
+    padding: 10px;
+}
+
+.green-bg {
+    background-color: lawngreen;
+}
+
+.gray-bg {
+    background-color: gray;
+}
+
+.lightgray-bg {
+    background-color: lightgray;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    margin-right: 20px;
+    position: relative;
+    button {
+        border-radius: 50px;
+        border: none;
+        background-color: gray;
+        color: white;
+        position: absolute;
+        top: 50px;
+        font-size: 0.5rem;
+        padding: 5px 7px 5px 7px;
+    }
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
